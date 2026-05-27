@@ -1,10 +1,17 @@
 function addStudent(){
-let name=
+let name =
 document.getElementById("name").value;
-let li=
+if(name===""){
+alert("Enter student name");
+return;
+}
+let li =
 document.createElement("li");
-li.innerText=name;
+li.innerText = name;
 document
 .getElementById("list")
 .appendChild(li);
+document
+.getElementById("name")
+.value="";
 }
