@@ -1,0 +1,13 @@
+body{
+  text-align:center;
+  font-family:Arial;
+}
+h1{
+  color:blue;
+}
+input{
+  padding:10px;
+}
+button{
+  padding:10px;
+}
